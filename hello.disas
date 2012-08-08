@@ -1,0 +1,13 @@
+00000000  60                pusha
+00000001  31DB              xor ebx,ebx
+00000003  684861780A        push dword 0xa786148
+00000008  89E1              mov ecx,esp
+0000000A  F7E3              mul ebx
+0000000C  43                inc ebx
+0000000D  B204              mov dl,0x4
+0000000F  B004              mov al,0x4
+00000011  CD80              int 0x80
+00000013  5E                pop esi
+00000014  61                popa
+00000015  B8EFBEADDE        mov eax,0xdeadbeef
+0000001A  FFE0              jmp eax
