@@ -1,7 +1,8 @@
 Author: Joey DeFrancesco
 Shouts: dlab
 
-Summary:
+Summary: a project I did in high school (circa 2006) with 
+my friend devon who passed away.  RIP. 
 
 elf: 
   Overwrites .note with some shellcode and changes entry point to 
